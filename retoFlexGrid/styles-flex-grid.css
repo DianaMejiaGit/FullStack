@@ -83,19 +83,17 @@ div{
     border-style: none;
 }
 
-@media (max-width: 768px){  /* <-- cambia 768px por tu X */
+@media (max-width: 768px){ 
   
   .caja-punteada,
   #caja-2 {
     grid-template-columns: 1fr !important;
   }
 
-  /* Contenedor con dos columnas -> a 1 columna */
   #contenedor-2 {
     grid-template-columns: 1fr !important;
   }
 
-  /* Todas las filas internas a 1 columna */
   .fila,
   #fila-2,
   #fila-3,
@@ -103,9 +101,7 @@ div{
     grid-template-columns: 1fr !important;
   }
 
-  /* Si llegas a usar esta fila grande, quita márgenes laterales fijos */
   #fila-1-grande { margin: 0 !important; }
 
-  /* Ajustes visuales (opcional) */
   .caja-izquierda { min-height: 220px; }
 }

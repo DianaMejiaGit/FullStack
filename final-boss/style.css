@@ -1,0 +1,92 @@
+-body {
+    font-family: Arial;
+}
+main {
+    margin: 0 15%;
+    margin-bottom: 3%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+header{
+    border-bottom: 1px solid lightgrey;
+}
+h1, h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.header-one {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 0 17.5%;
+}
+.header-one div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-one div img {
+    width: 30px; 
+    height: 30px; 
+    background-color: #000;
+}
+
+.nav-header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-header ul li a{
+    color: grey;
+}
+
+.ul-project li{
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+.ul-education li{
+    list-style: disc;
+    margin: 10px 15px;
+}
+.card a{
+    color: rgb(0, 110, 255);
+}
+
+.h2-subtitulo {
+     color: grey;
+     font-size: 12px;
+}
+
+.card-section{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.card {
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+#card-shadow div{
+    box-shadow: 0 5px 20px lightgrey;
+}
+
+.footer-styles {
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding-bottom: 2%;
+    color: grey;
+}
